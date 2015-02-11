@@ -1,4 +1,4 @@
-# Ternary
+# Ternary [![Build Status](https://secure.travis-ci.org/ajorgensen/go-ternary.png?branch=master)](http://travis-ci.org/ajorgensen/go-ternary) 
 
 The ternary operator has been excluded from the go language syntax. The [official](http://golang.org/doc/faq#Does_Go_have_a_ternary_form) documentation recommends using the long form if statement instead but somtimes 5 lines is just too many. This library allows you to write simple ternary statements to replace larger if statements.
 
