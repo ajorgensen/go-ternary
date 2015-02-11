@@ -1,6 +1,20 @@
 # Ternary
 
-Somtimes 5 lines is too many
+The ternary operator has been excluded from the go language syntax. The [official](http://golang.org/doc/faq#Does_Go_have_a_ternary_form){:target="_blank"} documentation recommends using the long form if statement instead but somtimes 5 lines is just to many. This library allows you to write simple ternary statements to replace larger if statements.
+
+```go
+if expr {
+    n = trueVal
+
+} else {
+    n = falseVal
+
+}
+```
+could become
+```go
+n := ternary.If(expr, trueVal, falseVal)
+```
 
 # Basic Usage
 
