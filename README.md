@@ -49,7 +49,7 @@ You should see the string `true` printed in the terminal output.
 
 # Nesting statements
 
-As long as your statement returns a boolean value you can nest the ternary statements to create compound expressions.
+You can nest the ternary statements to create more complex expressions
 
 ```go
 package main
