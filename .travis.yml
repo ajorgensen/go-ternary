@@ -1,0 +1,4 @@
+anguage: go
+script: go get github.com/ajorgensen/go-ternary && go test
+notifications:
+  email: false
